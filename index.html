@@ -4,19 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Viagem dos sonhos</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li>Pacotes</li>
-                <li>Taxas</li>
-                <li>Contato</li>
+                <li><a href="#">Pacotes</a></li>
+                <li><a href="#">Taxa</a></li>
+                <li><a href="#">Contato</a></li>
             </ul>
         </nav>
         <h1>Venha realizar a viagem dos seus sonhos!</h1>
     </header>
-    <section>
+    <section id="pacotes">
         <h2>Conheça nossos pacotes</h2>
         <p>
             rignonsdfnlnl,fs
@@ -25,15 +27,19 @@
             <br><br>
             <a href="www.google.com.br">Link</a>
         </p>
-        <figure>
-            <img src="img/Edinburgh Castle, Scotland 20131211.jpg" alt="castelo escôces">
-            <figcaption>Escocia</figcaption>
-        </figure>
-        <section>
+        <div class="figuras">
+            <figure>
+                <img src="img/Edinburgh Castle, Scotland 20131211.jpg" alt="castelo escôces">
+                <figcaption>Escocia</figcaption>
+            </figure>
+        </div>
+        <div class="videos">
             <video controls width="500">
                 <source src="Video/20141205_224820.mp4" type="video/mp4">
                 o seu navegador nao suporta esse tipo de formato. <a href="/Video/20141205_224820.mp4">Click aqui para baixar</a>
             </video>
+        </div>
+        <section>
             <section>
                 <h2>Orçamento</h2>
                 <form method="GET" action="">
@@ -108,7 +114,7 @@
         <section>
             <h2>Taxas e Serviços</h2>
             <p>Veja nossas taxas para serviços</p>
-            <table border>
+            <table>
                 <caption>Descrição dos serviços e respectivos valores</caption>
                 <thead>
                     <tr>
